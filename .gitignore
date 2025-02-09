@@ -4,3 +4,14 @@ venv/
 .ipynb_checkpoints/
 
 .env
+
+# Ignore all data files
+Data/
+
+# Ignore specific large file types
+*.pkl
+*.csv
+*.h5
+*.zip
+*.tar.gz
+*.npy
